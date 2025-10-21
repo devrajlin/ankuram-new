@@ -1455,7 +1455,7 @@ section::after{
   color: #000;
   border: none;}
 .hero-section-3 .feature-box {
-  background: linear-gradient(145deg, #fdfcbb, #e4ff87);
+  background: linear-gradient(145deg, #c0ff00, #e4ff87);
   color: #000;
 }
 
@@ -1480,8 +1480,7 @@ section::after{
 
 /* roadmap */
 .details-bg .bg-success{
-  background: radial-gradient(circle at top left, rgba(143, 255, 7, 0.3), transparent 50%),
-              radial-gradient(circle at bottom right, rgba(143, 255, 7, 0.2), #0b0b0b 70%);
+ 
   color: #f5f5f5;
   border-radius: 8px;
   border:none;
@@ -1489,9 +1488,22 @@ section::after{
   backdrop-filter: blur(10px);
   box-shadow: inset 0 0 25px rgba(143, 255, 7, 0.15);
 }
+.glass-card ul li{
+   font-family: "Saira", sans-serif;
+   font-weight: 600;
+   margin-bottom: 10px;
+}
+.bg-basic ul li{
+  margin-bottom: 10px;
+}
+.bg-success ul li{
+  margin-bottom: 10px;
+}
+.bg-danger ul li{
+  margin-bottom: 10px;
+}
 .details-bg .bg-danger{
-  background: radial-gradient(circle at top left, rgba(255, 11, 7, 0.3), transparent 50%),
-              radial-gradient(circle at bottom right, rgba(255, 7, 7, 0.2), #0b0b0b 70%);
+  
   color: #f5f5f5;
   border:none;
   border-radius: 8px;
@@ -1595,7 +1607,7 @@ section::after{
 .feature-card2 {
       border-radius: 22px;
       padding: 2rem;
-      background: linear-gradient(135deg, #fff9d1, #ffe766);
+      background: linear-gradient(135deg, #c0ff00, #ffe766);
       color: #0b0b0b;
       box-shadow: 0 10px 20px rgba(255, 231, 102, 0.1);
       transition: all 0.3s ease;
@@ -1606,7 +1618,7 @@ section::after{
     }
     .icon-box {
       background: #0b0f1a;
-      color: #ffe766;
+      color: #c0ff00;
       width: 60px;
       height: 60px;
       border-radius: 14px;
@@ -1625,7 +1637,7 @@ section::after{
     .steps li::before {
       content: counter(item);
       counter-increment: item;
-      background: #ffe766;
+      background: #c0ff00;
       color: #0b0b0b;
       font-weight: bold;
       display: inline-flex;
@@ -1683,6 +1695,32 @@ section::after{
     opacity: 1 !important;
   }
 
+  /*  responsive*/
+  .homepage-card{
+    display: flow-root;
+  }
+  .contact-card .btn-lemon{
+    width: 100% !important;
+  }
+  .contact-card .card{
+    padding: 5% !important;
+  }
+ .homepage-header {
+  height: auto;
+ }
+ .hero-image{
+  margin-left: auto;
+ }
+  .homepage-card .stat-card{
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+
+  .batch-timings .time-card h5{
+    font-size: 16px;
+  }
+
+
   .about-teacher button{
     width: 100%;
     margin-bottom: 30px;
@@ -1728,7 +1766,7 @@ section::after{
   .homepage-header h2{
     margin-top: 20px !important;
     text-align: center;
-    font-size: 1.6rem;
+    /* font-size: 1.6rem; */
   }
   .homepage-header .certified{
     text-align: center;
