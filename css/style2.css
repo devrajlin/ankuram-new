@@ -1694,7 +1694,9 @@ section::after{
     transform: none !important;
     opacity: 1 !important;
   }
-
+  .faq-section{
+    padding: 4% !important;
+  }
   /*  responsive*/
   .homepage-card{
     display: flow-root;
